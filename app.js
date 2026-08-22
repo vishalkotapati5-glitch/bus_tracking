@@ -744,4 +744,4 @@ const TransportTracker = () => {
   );
 };
 
-export default TransportTracker;
+ReactDOM.render(<TransportTracker />, document.getElementById('root'));
