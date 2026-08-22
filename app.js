@@ -1,13 +1,13 @@
 
 const { useState, useEffect } = React;
 const TransportTracker = () => {
-  const [selectedRoute, setSelectedRoute] = useState(null);
-  const [selectedStop, setSelectedStop] = useState(null);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [currentPage, setCurrentPage] = useState('home');
-  const [buses, setBuses] = useState([]);
-  const [currentTime, setCurrentTime] = useState(new Date());
-  const [lastAnnouncedStop, setLastAnnouncedStop] = useState({});
+const [selectedRoute, setSelectedRoute] = useState(null);
+const [selectedStop, setSelectedStop] = useState(null);
+const [searchQuery, setSearchQuery] = useState('');
+const [currentPage, setCurrentPage] = useState('home');
+const [buses, setBuses] = useState([]);
+const [currentTime, setCurrentTime] = useState(new Date());
+const [lastAnnouncedStop, setLastAnnouncedStop] = useState({});
 
   const routes = [
     { 
